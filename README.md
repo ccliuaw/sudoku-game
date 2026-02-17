@@ -5,6 +5,7 @@ This project is a website for palying Sudoku games.
 ## 🔗 Project Links
 * **Live Website (Github Pages):** https://ccliuaw.github.io/sudoku-game/
 * **Github Repository:** https://github.com/ccliuaw/sudoku-game
+* **Video Demo:** https://drive.google.com/file/d/1URRksDbAi_wPxxQDKhpjRKfJ3vo7ug90/view?usp=sharing 
 
 ## 👥 Developer
 * **Name:** Chun-Cheng Liu
