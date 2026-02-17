@@ -16,7 +16,7 @@ This project is a website for palying Sudoku games.
 ### 1. Challenges & Learning Experience
 * **What was the most challenging piece of this assignment?**
     The most challenging part was implementing the 9x9 Sudoku grid using CSS Grid. I had to ensure the 3x3 subgrids had thicker borders while the internal cells had thinner borders to mimic a real Sudoku board. Additionally, implementing the `readonly` attribute for the pre-filled numbers required careful CSS styling to visually distinguish them from the user-input cells.
-    
+
 * **How long did this assignment take?**
     This assignment took me approximately 12 hours to complete.
 
@@ -36,3 +36,7 @@ This project is a website for palying Sudoku games.
 * **Total Hours:** 12 hours
 
 ---
+
+## Reference
+
+Logo image source: https://commons.wikimedia.org/wiki/File:NYT_Sudoku_Logo.png
