@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Game</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <h1>Sudoku Master</h1>
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../selection/">Selection Page</a></li>
+            <li><a href="../game-hard/">Hard Game</a></li>
+            <li><a href="../game-easy/" class="active">Easy Game</a></li>
+            <li><a href="../rules/">Rules</a></li>
+            <li><a href="../highscore/">High Scores</a></li>
+            <li><a href="../login/">Login</a></li>
+            <li><a href="../register/">Register</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Morning Warmup (Easy)</h2>
+
+        <div style="font-size: 1.2rem; margin-bottom: 10px;">
+            Time: <span style="font-weight: bold; color: #27ae60;">01:15</span>
+        </div>
+
+        <div class="sudoku-board-6x6">
+            <div class="subgrid-2x3">
+                <input class="cell" type="number" value="1" readonly><input class="cell" type="number">
+                <input class="cell" type="number"><input class="cell" type="number" value="2" readonly>
+                <input class="cell" type="number"><input class="cell" type="number">
+            </div>
+            <div class="subgrid-2x3">
+                <input class="cell" type="number"><input class="cell" type="number" value="3" readonly>
+                <input class="cell" type="number" value="4" readonly><input class="cell" type="number">
+                <input class="cell" type="number"><input class="cell" type="number">
+            </div>
+            <div class="subgrid-2x3">
+                <input class="cell" type="number"><input class="cell" type="number">
+                <input class="cell" type="number"><input class="cell" type="number">
+                <input class="cell" type="number" value="5" readonly><input class="cell" type="number" value="6"
+                    readonly>
+            </div>
+            <div class="subgrid-2x3">
+                <input class="cell" type="number" value="4" readonly><input class="cell" type="number" value="2"
+                    readonly>
+                <input class="cell" type="number"><input class="cell" type="number">
+                <input class="cell" type="number"><input class="cell" type="number">
+            </div>
+            <div class="subgrid-2x3">
+                <input class="cell" type="number"><input class="cell" type="number">
+                <input class="cell" type="number"><input class="cell" type="number" value="6" readonly>
+                <input class="cell" type="number" value="1" readonly><input class="cell" type="number">
+            </div>
+            <div class="subgrid-2x3">
+                <input class="cell" type="number"><input class="cell" type="number">
+                <input class="cell" type="number"><input class="cell" type="number">
+                <input class="cell" type="number" value="2" readonly><input class="cell" type="number" value="3"
+                    readonly>
+            </div>
+        </div>
+
+        <button>Check Puzzle</button>
+    </main>
+
+</body>
+
+</html>
